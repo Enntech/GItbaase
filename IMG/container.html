@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #28223F;
+    }
+    .container {
+        width: 300px;
+        border-radius: 16px;
+        background: #231E39;
+        color: #B3B8CD;
+        box-shadow: 0 30px 45px rgba(26, 26, 26, 0.2);
+        overflow: hidden;
+    }
+    .top_part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 8px;
+        
+    }
+    .img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 6px solid transparent;
+        outline: 2px solid #03BFCB;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .top_part p:nth-child(2) {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .top_part button {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 4px 12px;
+        color: white;
+        background: #03BFCB;
+        border-radius: 2px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .bottom_part ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .bottom_part ul li {
+        list-style: none;
+        border: 1px solid #2D2747;
+        padding: 2px 5px;
+    }
+  </style>  
+</head>
+<body>
+   <div class="container">
+    <div class="top_part">
+        <div class="img">
+            <!-- <img src="WhatsApp Image 2023-05-06 at 22.06.28.jpeg"> -->
+            <img src="WhatsApp Image 2023-05-28 at 07.49.58.jpeg">
+        </div>
+        <p>Enoch Temidayo</p>
+        <p>Akure, Nigeria</p>
+        <p>Front End Developer</p>
+        <div class="buttons">
+            <button class="msg_btn">Messages</button>
+            <button class="fol_btn">Follow</button>
+        </div>
+    </div>
+    <div class="bottom_part">
+        <p>Skills</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>GIS</li>
+        </ul>
+    </div>
+   </div> 
+</body>
+</html>

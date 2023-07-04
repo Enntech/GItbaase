@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+          font-size: 36px;
+          color: blue;
+        background-color: coral;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        border: 20px;
+        position: relative;
+        }
+      
+        p {
+          font-size: 18px;
+          color: hsl(0, 0%, 4%);
+          opacity: 60px;
+          font-weight: bold;
+          font-size: 20px;
+          font-family: 'Times New Roman', Times, serif;
+          border: 20px;
+          
+        }
+        body{
+            background-image: url("marigold-7836281_1920.jpg");
+
+        }
+    
+      </style>
+   <title>Register</title>
+</head>
+<body>
+    <h1>PERSONAL INFORMATION</h1>
+    <form method="POST">
+    <P>
+        First Name: <input type="text" name="firstname"><br>
+    <p>
+        Last Name: <input type="text" name="lastname"><br>
+    <p>
+        Email: <input type="email" name="email" required><br>
+    <p>
+        Password: <input type="password" name="password" minlength="5"><br>
+    <p>
+        Birthday: <input type="date"><br>
+        <p>
+            Gender: <br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">feMale<br>
+        <p>
+            School: <br>
+            <select name="school" id="">
+                <option value="PTI">PTI</option>
+                <option value="Maritime">Maritime</option>
+            </select><br>
+        <p>
+        <input type="submit" value="Register">
+        <input type="Reset">
+        <p>
+            <label for="Your Bio">Your bio:</label><br>
+            <textarea name="Bio" id="" cols="30" rows="10" placeholder="about you"></textarea>
+        </p>
+    </p>
+    </form>
+</body>
+</html>
